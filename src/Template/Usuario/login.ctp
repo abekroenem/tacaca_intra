@@ -23,7 +23,7 @@
                 <br>
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary">Entrar</button>
-                    <a href='/' class="btn btn-secondary">Voltar</a>
+                    <a href='/' class="btn btn-secondary">Página Inicial</a>
                 </div>
             <?= $this->Form->end(); ?>
         </div>

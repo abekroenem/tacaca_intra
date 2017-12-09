@@ -23,6 +23,7 @@ class PostController extends AppController
     {
         $this->paginate = [
             'contain' => ['Usuario'],
+            'limit'=>'10',
             'order' => ['post.created'=>'desc']
         ];
         $post = $this->paginate($this->Post);
